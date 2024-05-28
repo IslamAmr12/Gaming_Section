@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* background: url(HTML&CSS_Bro.mp4); */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    /* border: white 0.4em solid; */
+    width: 9em;
+    margin-right: 1.5em ;
+    transition: 0.6s;
+}
+
+.Main{
+    align-items: center;
+    display: flex;
+    margin-top: 0;
+
+}
+
+.homp {
+    display: flex;
+    background-color: #0171f9;
+    justify-content: space-between;
+
+    padding: 1em;
+    position: static;
+    padding-bottom: 2em;
+}
+
+.navigation-bar a {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 100%;
+    text-decoration: none;
+    color: aliceblue; 
+    margin: 0 1.2em;
+    background-color: #0171f9;
+    border-radius: 1em;
+    padding: 0.6em;
+    transition: 0.7s;
+
+}
+
+.navigation-bar a:hover {
+    color: #0171f9;
+    background-color: aliceblue;
+    font-size: 120%;
+
+
+}
+
+
+.Main-name {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    /* width: 1em; */
+    text-decoration: none;
+    color: aliceblue; 
+    text-transform: uppercase;
+    border: solid 0.2em  aliceblue ;
+    padding: 0.3em;
+    transition: 0.3s;
+
+}
+
+.logo:hover {
+    font-size: 1.3em;
+}
+
+.navigation-bar button {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    border-radius: 1em;
+    padding: 0.7em 1em;
+    transition: 0.5s;
+}
+
+.navigation-bar button:hover {
+    font-size: 120%;
+}
+
+/** Content */
+
+.st_content {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    background: #0171f9;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 2em 2em;
+
+}
+
+.wel {
+    margin: 3em 0 1em 0;
+    color: antiquewhite;
+
+
+    /* align-items: center; */ 
+
+}
+
+.wel p {
+    padding: 1em;
+    text-transform: capitalize;
+}
+
+.wel h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.spn1 {
+    font-weight: 350;
+    text-transform: none;
+}
+
+.wel input {
+    border-radius: 1em;
+    padding: 0.7em 1.2em 0.7em 0.7em;
+    color: black;
+    border: none;
+
+}
+
+.wel button {
+    position: relative;
+    right: 2em;
+    border-radius: 0 1em 1em 0;
+    padding: 0.7em 1em;
+    transition: 0.5s;
+    size: 5em;
+}
+/* .wel button:hover {
+    
+}  */
+
+.mimg img {
+    border-radius: 1em;
+    margin: 1em;
+}
+
+#trendgames {
+    padding: 2em;
+
+}
+
+.card-area{
+    display: flex;
+    /* align-content: space-between; */
+    flex-wrap: wrap;
+
+
+}
+
+.card{
+    width: 20em;    
+    background: lightgrey ;
+    border-radius: 1em;
+    font-weight: 20em;
+    margin: 1em;
+    transition: 0.5s ease;
+}
+
+.card-compunents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+/* .card:hover{
+    transform: scale(1.1);
+    background-color: gray;
+    font-size: 120%;
+} */
+
+.card-info img {
+    width: 20em ;
+    margin-bottom: 0;
+    border-radius: 1em 1em 0 0;
+}
+
+.card-name {
+    padding-left: 0.7em ;    
+    margin: 0;    
+
+}
+
+
+
+.DO-BU {
+    background-color: #0171f9 ;
+    border-radius: 0.7em ;
+    padding: 0.7em;
+    transition: 0.6s;
+}
+
+.DO-BU:hover{
+    font-size: 120%;
+}
+
+/* .Priceorss {
+    padding: 1em;
+} */
+
+/** Top Games */
+
+#top {
+    background: #0171f9;
+    border-radius: 1em 1em 0 0;
+    padding: 1.5em ;
+}
+.card-compunents > p{
+    margin-left: 0.7em;
+}
+
+.Top-a {
+    text-decoration: none;
+    color: white;
+    background: #0171f9;
+    padding: 1em;
+    border: white 0.3em solid;
+    border-radius: 1em;
+    transition: 0.6s;
+}
+
+.Top-a:hover{
+    font-size: 120%;
+}
+
+.Top-Top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Top-Top_title{
+    font-size: 2em;
+}
+
+.Trend-a {
+    text-decoration: none;
+    color: #0171f9;
+    background: white;
+    padding: 1em;
+    border: #0171f9 0.3em solid;
+    border-radius: 1em;
+    transition: 0.6s;
+}
+
+.Trend-a:hover{
+    font-size: 120%;
+}
+
+footer {
+    background: #05487C ;
+}
+
+.Foot-Links {
+    display: flex;
+    justify-content: space-between;
+    padding : 2em 3em ;
+
+}
+
+.Foot-Links a{
+    color:black;
+    font-weight: 1em;
+}
